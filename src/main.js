@@ -13,4 +13,11 @@ const mat4LookDirection = function(mat) {
     return lookDirection;
 }
 
-export {mat4LookDirection};
+const gazeFromMatrix = matrix => {
+	let translation = M.vec3.create();
+	M.mat4.getTranslation(translation, matrix);
+	const lookDirection = mat4LookDirection(matrix);
+	return { translation, lookDirection };
+};
+
+export {mat4LookDirection, gazeFromMatrix};
