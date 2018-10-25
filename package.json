@@ -1,9 +1,9 @@
 {
-  "name": "rollup-starter-lib",
+  "name": "lin-manuel-miranda",
   "version": "1.0.0",
-  "main": "dist/how-long-till-lunch.cjs.js",
-  "module": "dist/how-long-till-lunch.esm.js",
-  "browser": "dist/how-long-till-lunch.umd.js",
+  "main": "dist/lin-manuel-miranda.cjs.js",
+  "module": "dist/lin-manuel-miranda.esm.js",
+  "browser": "dist/lin-manuel-miranda.umd.js",
   "dependencies": {
     "ms": "^2.0.0"
   },
@@ -20,5 +20,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "peerDependencies": {
+    "gl-matrix": "^2.8.1"
+  }
 }
