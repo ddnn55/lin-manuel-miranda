@@ -1,6 +1,6 @@
 {
   "name": "lin-manuel-miranda",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/lin-manuel-miranda.cjs.js",
   "module": "dist/lin-manuel-miranda.esm.js",
   "browser": "dist/lin-manuel-miranda.umd.js",
