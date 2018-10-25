@@ -1,3 +1,5 @@
+const M = require('gl-matrix');
+
 const mat4LookDirection = function(mat) {
     // https://stackoverflow.com/questions/15697273/how-can-i-get-view-direction-from-the-opengl-modelview-matrix
     // return M.vec3.fromValues(mat[2], mat[6], -mat[10]);
